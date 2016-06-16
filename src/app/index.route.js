@@ -14,7 +14,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider, $locationProvi
               content:{
                   templateUrl: 'app/components/home/home.html'
               }
-          },
+          }
       })
 
       .state('page2', {
@@ -24,7 +24,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider, $locationProvi
               content:{
                   templateUrl: 'app/components/home/page2.html'
               }
-          },
+          }
       })
 
       .state('page3', {
@@ -34,7 +34,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider, $locationProvi
               content:{
                   templateUrl: 'app/components/home/page3.html'
               }
-          },
+          }
       })
 
       .state('page4', {
@@ -44,7 +44,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider, $locationProvi
               content:{
                   templateUrl: 'app/components/home/page4.html'
               }
-          },
+          }
       })
 
       .state('page5', {
@@ -54,7 +54,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider, $locationProvi
               content:{
                   templateUrl: 'app/components/home/page5.html'
               }
-          },
+          }
       })
 
       .state('page6', {
@@ -64,7 +64,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider, $locationProvi
               content:{
                   templateUrl: 'app/components/home/page6.html'
               }
-          },
+          }
       })
 
       .state('page7', {
@@ -74,7 +74,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider, $locationProvi
               content:{
                   templateUrl: 'app/components/home/page7.html'
               }
-          },
+          }
       });
 
   $urlRouterProvider.otherwise('/');
