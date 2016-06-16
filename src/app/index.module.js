@@ -10,7 +10,7 @@ import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive';
 
 angular.module('astroLanding', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ngMaterial', 'toastr'])
-  .constant('malarkey', malarkey
+  .constant('malarkey', malarkey)
   .constant('moment', moment)
   .config(config)
   .config(routerConfig)

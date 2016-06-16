@@ -2,11 +2,11 @@
     <md-content flex>
         <div layout="column" layout-align="center top" class="main-page">
             <div class="logo-layout" layout="vertical" layout-align="center top">
-                <a href="/" class="home-link"></a>
+                <a ui-sref="home" class="home-link"></a>
             </div>
             <div class="badge" hide-xs hide-sm></div>
             <div layout="vertical" layout-align="center top">
-                <ui-view name="content" layout-padding flex flex-sm="90" flex-gt-sm="70" flex-gt-md="60"></ui-view>
+                <ui-view name="content" class="content" layout-padding flex flex-sm="90" flex-gt-sm="70" flex-gt-md="60" autoscroll="true"></ui-view>
             </div>
         </div>
     </md-content>
