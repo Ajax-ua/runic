@@ -135,6 +135,9 @@ body{
 
   .text{
     font-size:17px;
+    color:#222;
+    background:#fff;
+    padding:20px 25px;
 
     img{
       display: block;
@@ -185,7 +188,8 @@ body{
   }
 
   .next-page2{
-    padding:3px 25px;
+    padding:5px 35px;
+    font-size:16px;
     position:relative;
     overflow:visible;
     opacity:.8;
@@ -229,6 +233,12 @@ body{
     margin-top:-50px;
     padding-bottom:0;
     font-size:24px;
+  }
+
+  .main-page .text{
+    margin:0 10px;
+    padding-left:15px;
+    padding-right:15px;
   }
 }
 
